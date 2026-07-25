@@ -2,14 +2,14 @@
 %define upstream_version 0.09
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	%{upstream_version}
+Release:	5
 
 Summary:	%{upstream_name} module for perl
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}/
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Net/%{upstream_name}-%{upstream_version}.tar.bz2
+Url:		https://metacpan.org/dist/Net-SSH
+Source0:	https://cpan.metacpan.org/authors/id/I/IV/IVAN/Net-SSH-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
