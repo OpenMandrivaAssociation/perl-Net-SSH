@@ -1,7 +1,7 @@
 %define upstream_name	 Net-SSH
 %define upstream_version 0.09
 Name:		perl-%{upstream_name}
-Version:	0.09
+Version:	2.14
 Release:	1
 
 Summary:	%{upstream_name} module for perl
@@ -18,7 +18,7 @@ BuildArch:	noarch
 Simple wrappers around ssh commands.
 
 %prep
-%setup -q -n %{upstream_name}-%{version}
+%setup -q -n Net-SSH-0.09
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
